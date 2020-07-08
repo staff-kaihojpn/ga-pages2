@@ -12,3 +12,36 @@
     margin: 1.5rem 0;
   }
 }
+
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2px;
+  
+  .photo {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 2px;
+  }
+  
+  .photo img {
+    margin-top: 6px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  @media screen and (max-width: 800px) {
+    .photo {
+      flex: 33.3%;
+      max-width: 33.3%;
+    }
+  }
+  /*
+  @media screen and (max-width: 600px) {
+    .photo {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  */
+}

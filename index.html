@@ -1,11 +1,18 @@
 ---
-layout: blog
-title: Blog
-description: >
-  The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll.
-last_modified_at: 2018-08-03
-no_link_title: false 
-no_excerpt: false 
-hide_image: false
+layout: page
+title: 本日の商品
 cover: true
 ---
+
+
+<div class="gallery">
+  {% for item in site.data.items %}
+  <div class="photo">
+    <a class="no-mark" target="_blank" rel="noopener" HREF="{{ item.url }}">
+      <img alt="{{item.title}}" BORDER=0 SRC="{{ item.image }}" style="padding-right: .15rem;" WIDTH="90px" HEIGHT="67px">
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<div>【{{site.data.edt}}】 {{site.data.items.size}}点</div>

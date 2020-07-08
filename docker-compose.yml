@@ -3,7 +3,7 @@ services:
   app:
     image: jekyll/jekyll
     #image: jekyll/jekyll:pages
-    command: jekyll serve --force_polling
+    command: jekyll serve --force_polling --trace
     #tty: true
 
     volumes:
