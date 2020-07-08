@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://hydecorp.github.io
+url:                   https://pages.kaihojpn.com
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -29,8 +29,7 @@ title:                 Galleria李朝
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+                        厳選された古美術品を毎日出品中<br>初荷を揃えております
 
 # A shorter description for the sidebar.
 tagline:               厳選された古美術品を毎日出品中<br>初荷を揃えております
@@ -54,11 +53,9 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             取引規定
-    url:               /pages/rules/
+    url:               /rules/
   - title:             送料表
-    url:               /pages/shipment/
-  - title:             本日の落札
-    url:               /pages/
+    url:               /shipment/
 #  - title:             Example
 #    url:               /example/
 #  - title:             Documentation
@@ -69,15 +66,15 @@ menu:
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+#  - title:             LICENSE
+#    url:               /LICENSE/
+#  - title:             NOTICE
+#    url:               /NOTICE/
+#  - title:             CHANGELOG
+#    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020. All rights reserved.
+copyright:             © 2020. kaihojpn All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -116,12 +113,12 @@ theme: jekyll-theme-hydejack
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(179,135,21)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(8,46,57)
+theme_color:           rgb(209,171,73)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -144,7 +141,7 @@ defaults:
   - scope:
       path:            hyde/
     values:
-      accent_color:    rgb(38,139,210)
+      accent_color:    rgb(179,135,21)
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
@@ -163,10 +160,6 @@ defaults:
 
   # Force page layout on docs/ and licensees/ folder.
   - scope:
-      path:            pages/
-    values:
-      layout:          page
-  - scope:
       path:            docs/
     values:
       layout:          page
@@ -174,7 +167,7 @@ defaults:
       path:            licenses/
     values:
       layout:          page
-
+  
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
