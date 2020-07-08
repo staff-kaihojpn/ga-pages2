@@ -187,8 +187,8 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         katex
-  math_engine_opts:    {}
+#  math_engine:         katex
+#  math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
 
