@@ -30,7 +30,7 @@ module YahooAuction
       p(items.size)
     
       # レイアウト側で使えるようにsite.dataに値を入れておく
-      site.data.merge!({ "items" => items, "edt" => today })
+      site.data.merge!({ "current_items" => items })
     end
 
   end

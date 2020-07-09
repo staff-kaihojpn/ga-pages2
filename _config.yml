@@ -21,7 +21,7 @@ yahoo_auction_id: galleriaricho
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ja
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Galleria李朝
@@ -42,14 +42,15 @@ keywords:              []
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/logo.png
 
-# This should be the same author as first entry in `_data/authors.yml`.
+## This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                kaihojpn
+  email:               info@kaihojpn.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
-
+social: 
+  camera: /photos/
 # Add links to the sidebar.
 menu:
   - title:             取引規定

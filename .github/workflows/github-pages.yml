@@ -17,3 +17,4 @@ jobs:
       - uses: helaili/jekyll-action@2.0.3
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+          MICROCMS_KEY: ${{ secrets.MICROCMS_KEY }}

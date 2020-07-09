@@ -1,12 +1,12 @@
 ---
 layout: page
-title: 本日の商品
+title: 本日落札の商品
 cover: true
 ---
 
 
 <div class="gallery">
-  {% for item in site.data.items %}
+  {% for item in site.data.current_items %}
   <div class="photo">
     <a class="no-mark" target="_blank" rel="noopener" HREF="{{ item.url }}">
       <img alt="{{item.title}}" BORDER=0 SRC="{{ item.image }}" style="padding-right: .15rem;" WIDTH="90px" HEIGHT="67px">
@@ -15,4 +15,4 @@ cover: true
   {% endfor %}
 </div>
 
-<div>【{{site.data.edt}}】 {{site.data.items.size}}点</div>
+<div>【】 {{site.data.current_items.size}}点</div>

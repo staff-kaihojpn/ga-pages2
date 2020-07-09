@@ -206,3 +206,19 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+
+camera:
+  name: Camera
+  icon: icon-camera
+images:
+  name: Images
+  icon: icon-images
+storefront:
+  name: Storefront
+  icon: icon-storefront
+local_grocery_store:
+  name: local_grocery_store
+  icon: icon-local_grocery_store
+auction:
+  name: Auction
+  icon: icon-auction

@@ -1,0 +1,14 @@
+---
+layout: page
+title: photography
+---
+
+
+<div class="gallery">
+  {% for photo in site.data.photos %}
+  <div class="photo">
+    <img alt="{{photo.title}}" BORDER=0 SRC="{{ photo.image.url }}?fit=crop&w=200&h=200" style="padding-right: .15rem;">
+  </div>
+  {% endfor %}
+  
+</div>
