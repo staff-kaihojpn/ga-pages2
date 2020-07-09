@@ -10,3 +10,6 @@ services:
       - .:/srv/jekyll
     ports:
       - 4001:4000
+    
+    environment:
+      - MICROCMS_KEY=111

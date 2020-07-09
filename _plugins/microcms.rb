@@ -5,7 +5,9 @@ module MicroCMS
     def generate(site)
       p('MICROCMS_KEY')
       
-      p(site.config['env'])
+      #pp(site.config)
+      pp(ENV)
+      p(ENV['MICROCMS_KEY'])
       
     end
   end
