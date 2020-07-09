@@ -18,6 +18,7 @@ baseurl:               '/ga-pages2'
 # General settings
 # ---------------------------------------------------------------------------------------
 yahoo_auction_id: galleriaricho
+microcms_api: https://kaihojpn.microcms.io/api/v1/photo
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.

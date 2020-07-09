@@ -1,6 +1,7 @@
 version: '3.6'
 services:
   app:
+    #image: jekyll/minimal
     image: jekyll/jekyll
     #image: jekyll/jekyll:pages
     command: jekyll serve --force_polling
@@ -11,5 +12,5 @@ services:
     ports:
       - 4001:4000
     
-    environment:
-      - MICROCMS_KEY=111
+    env_file: .env
+    
