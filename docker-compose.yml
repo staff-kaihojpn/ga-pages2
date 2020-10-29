@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+  app:
+    #image: jekyll/minimal
+    image: jekyll/jekyll
+    #image: jekyll/jekyll:pages
+    command: jekyll serve --force_polling
+    #tty: true
+
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - 4001:4000
+    
+    env_file: .env
+    
