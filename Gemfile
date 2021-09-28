@@ -44,4 +44,4 @@ end
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
 
-gem "nokogiri", "~> 1.10"
+gem "nokogiri", "~> 1.12"
